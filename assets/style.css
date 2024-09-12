@@ -126,6 +126,52 @@
         text-wrap: wrap;
     }
 
+    footer{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            width: 100%;
+            display: flex;
+            justify-content: start;
+            gap: 40px;
+            font-size: 16px;
+            background-color: #e9fff2;
+            margin-top: 50px;
+        }
+    
+        .footer-contact, .footer-navigation{
+            margin-top: 50px;
+            margin-bottom: 50px;
+        }
+    
+        .footer-contact{
+            width: 20vw;
+            margin-left: 5vw;
+        }
+    
+        .footer-contact h4, .footer-contact p{
+            margin-bottom: 10px;
+            line-height: 28px;
+        }
+    
+        .footer-navigation{
+            width: 20vw;
+        }
+    
+        .footer-navigation h4{
+
+            margin-bottom: 18px;
+        }
+    
+        .footer-navigation li {
+            margin-bottom: 10px;
+            line-height: 24px;
+            text-decoration: underline;
+        }
+    
+        li{
+            list-style: none;
+        }
+    }
+
     @media only screen and (min-width: 780px) {
         .link-cards-container{
                 width: 96vw;
