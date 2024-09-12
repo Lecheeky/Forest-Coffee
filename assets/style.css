@@ -83,14 +83,18 @@
     .link-cards{
         width: 90vw;
         height: 300px;
-        background-color: white;
         margin-bottom: 25px;
         margin-left: 5vw;
-        background-color: #42ad80;
         border-radius: 10px;
         cursor: pointer;
-        background-size: cover;
+        background-size: 100%;
         background-position: 100% 60%;
+        transition: 1.5s ease-in-out;
+        transition: background-size 0.5s ease;
+    }
+
+    .link-cards:hover{
+       background-size: 110%;
     }
 
     #link-card1{
@@ -176,23 +180,22 @@
         .link-cards-container{
                 width: 96vw;
                 display: grid;
-                grid-template-columns: repeat(3, 1fr); /* 3 equal columns *//* Adjust the gap between the cards */
+                grid-template-columns: repeat(3, 1fr); 
                 gap: 20px;
                 margin-left: 2vw;
             }
             
             .link-cards {
-                width: 100%; /* Adjust to fill the grid column */
+                width: 100%; 
                 height: 300px;
                 background-color: white;
                 margin-bottom: 0px;
                 background-color: #42ad80;
                 border-radius: 10px;
                 cursor: pointer;
-                background-size: cover;
+                background-size: 100%;
                 background-position: 100% 60%;
                 margin-left: 0;
             }
             
-        }
 }
