@@ -1,3 +1,7 @@
+html, body{
+    overflow-x: hidden;
+}
+
 @media only screen and (min-width: 0px) {
     .hero2{
         background-image: url(../images/menu-hero.jpeg);
@@ -12,7 +16,7 @@
         color: rgb(255, 255, 255);
         text-align: center;
         align-content: center;
-        font-size: 50px;
+        font-size: 40px;
         font-family: Montserrat-Bold;
         font-weight: 400;
         padding: 0px 28px 0px 28px;
