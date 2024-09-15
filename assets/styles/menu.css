@@ -65,6 +65,14 @@
         background-image: url(../images/toastie.jpeg);
     }
     #menu-link-card6{
-        background-image: url(../images/bread.jpeg);
+        background-image: url(../images/buns.jpeg);
+    }
+    #menu-link-card7{
+        background-image: url(../images/coffee.jpeg);
+        background-position: 100% 55%;
+    }
+    #menu-link-card8{
+        background-image: url(../images/smoothie.jpeg);
+        background-position: 100% 30%;
     }
 }
