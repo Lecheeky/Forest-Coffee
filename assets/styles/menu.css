@@ -1,0 +1,70 @@
+@media only screen and (min-width: 0px) {
+    .hero2{
+        background-image: url(../images/menu-hero.jpeg);
+        height: 85vh;
+        width: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 100% 50%;
+        margin-bottom: 25px;
+    }
+    .hero2 p{
+        color: rgb(255, 255, 255);
+        text-align: center;
+        align-content: center;
+        font-size: 50px;
+        font-family: Montserrat-Bold;
+        font-weight: 400;
+        padding: 0px 28px 0px 28px;
+        overflow: hidden;
+        text-shadow: 1px 1px rgb(0, 0, 0);
+    }
+    
+    .hero2 button{
+        width: 180px;
+        height: 50px;
+        background-color: #42ad80;
+        border-radius: 10px;
+        border: none;
+        font-size: 13px;
+        color: white;
+        font-family: Montserrat-Medium;
+        margin-top: 8px;
+        font-weight: 700;
+        cursor: pointer;
+        transition: 0.5s;
+    }
+    
+    .hero-info span{
+        color: rgb(202, 35, 13);
+    }
+
+    .hero2 button:hover{
+        background-color: 
+        #247251;
+    }
+
+    .link-cards h2{
+        text-shadow: 1px 1px black;
+    }
+
+    #menu-link-card1{
+        background-image: url(../images/pastries.jpeg);
+    }
+
+    #menu-link-card2{
+        background-image: url(../images/bread.jpeg);
+    }
+    #menu-link-card3{
+        background-image: url(../images/creamcakes.jpeg);
+    }
+    #menu-link-card4{
+        background-image: url(../images/macaron.jpeg);
+    }
+    #menu-link-card5{
+        background-image: url(../images/toastie.jpeg);
+    }
+    #menu-link-card6{
+        background-image: url(../images/bread.jpeg);
+    }
+}

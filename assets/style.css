@@ -222,6 +222,10 @@
         transition: background-size 0.5s ease;
     }
 
+    .link-cards a{
+        text-decoration: none;
+    }
+
     .link-cards:hover{
        background-size: 110%;
     }
