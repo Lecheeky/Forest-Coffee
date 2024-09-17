@@ -1,0 +1,24 @@
+@media only screen and (min-width: 0px) {
+    .about-hero{
+        background-image: url(../images/baker-hands.jpeg);
+        height: 50vh;
+        width: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 100% 50%;
+        margin-bottom: 25px;
+    }
+    .about-hero p{
+        color: rgb(255, 255, 255);
+        text-align: center;
+        align-content: center;
+        font-size: 48px;
+        font-family: Montserrat-Bold;
+        font-weight: 400;
+        padding: 0px 28px 0px 28px;
+        text-shadow: 1px 1px rgb(0, 0, 0);
+        position: absolute;
+        z-index: 5;
+        margin-top: 80px;
+    }
+}
