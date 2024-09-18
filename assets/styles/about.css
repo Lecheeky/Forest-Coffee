@@ -1,3 +1,11 @@
+
+
+@font-face {
+    font-family: Montserrat-Light;
+    src: url(../fonts/Montserrat-Light.ttf);
+}
+
+
 @media only screen and (min-width: 0px) {
     .about-hero{
         background-image: url(../images/baker-hands.jpeg);
@@ -5,8 +13,9 @@
         width: 100%;
         background-size: cover;
         background-repeat: no-repeat;
-        background-position: 100% 50%;
+        background-position: 20% 70%;
         margin-bottom: 25px;
+        position: relative;
     }
     .about-hero p{
         color: rgb(255, 255, 255);
@@ -20,5 +29,47 @@
         position: absolute;
         z-index: 5;
         margin-top: 80px;
+    }
+
+    .founder-container{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        margin-top: 100px;
+        overflow: hidden;
+        height: 60vh;
+    }
+
+    .founder-left-container{
+        width: 40vw;
+    }
+
+    .founder-left-container h3{
+        font-family: Montserrat-Bold;
+        font-size: 39px;
+        letter-spacing: 4px;
+        margin-bottom: 50px;
+    }
+
+    .founder-left-container p{
+        font-family: Montserrat-Light;
+        margin-bottom: 22px;
+        word-spacing: 4px;
+    }
+
+    .founder-left-container h3, .founder-left-container p{
+        margin-left: 150px;
+    }
+
+    .founder-right-container img{
+        border-radius: 10px;
+        margin-right: 100px;
+    }
+    
+}
+
+@media only screen and (min-width: 780px){
+    .founder-container{
+        flex-direction: row;
     }
 }
